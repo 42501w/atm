@@ -41,7 +41,7 @@ if (pinAnswer.Pin === myPin) {
   } else if (OperationAns.Operation === "Balance Inquirey") {
     console.log("Your Balance is:" + myBalance);
   } else if (OperationAns.Operation === "fastCash") {
-    const fastCashAmount = 500;
+    const fastCashAmount = 500 ;
 
     if (fastCashAmount > myBalance) {
       console.log("Insufficient Balance");
